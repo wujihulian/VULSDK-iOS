@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-s.name             = 'VULSDK'
+s.name             = 'VULSDK-iOS'
 s.version          = '1.0.0'
 s.summary          = 'Wuji student terminal SDK development.'
 
@@ -8,10 +8,10 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/wujihulian/VULSDK'
+s.homepage         = 'https://github.com/wujihulian/VULSDK-iOS.git'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { '岳克维' => 'yuekewei@aliyun.com' }
-s.source           = { :git => 'https://github.com/wujihulian/VULSDK.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/wujihulian/VULSDK-iOS.git', :tag => s.version.to_s }
 s.ios.deployment_target = '9.0'
 s.vendored_frameworks = 'VULSDK/Classes/VULSDK.framework'
 s.frameworks  = "Foundation", "UIKit"

@@ -31,7 +31,7 @@
 		A299D65525399C4500B979AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A299D65725399C4500B979AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A299D65825399C4500B979AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2EB4B24253D7A7500464E26 /* VULSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VULSDK.podspec; path = ../../VULSDK.podspec; sourceTree = "<group>"; };
+		A2EB4B24253D7A7500464E26 /* VULSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VULSDK.podspec; path = ../../VULSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA43F283E47AA6BA18DB42A4 /* Pods-VULSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VULSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
