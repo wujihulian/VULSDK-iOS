@@ -13,7 +13,8 @@
 		A299D65325399C4500B979AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A299D65225399C4500B979AC /* Assets.xcassets */; };
 		A299D65625399C4500B979AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A299D65425399C4500B979AC /* LaunchScreen.storyboard */; };
 		A299D65925399C4500B979AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A299D65825399C4500B979AC /* main.m */; };
-		A2EB4B25253D7A7500464E26 /* VULSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2EB4B24253D7A7500464E26 /* VULSDK.podspec */; };
+		A2D6BF7B2541809F00834310 /* VULSDK-iOS.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2D6BF7A2541809F00834310 /* VULSDK-iOS.podspec */; };
+		A2D6BF7E2541857E00834310 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A2D6BF7D2541857E00834310 /* README.md */; };
 		BBDE6C69A68621D7AC67CDFF /* Pods_VULSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57974C9A88F95B48672174F0 /* Pods_VULSDKDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,8 @@
 		A299D65525399C4500B979AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A299D65725399C4500B979AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A299D65825399C4500B979AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A2EB4B24253D7A7500464E26 /* VULSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VULSDK.podspec; path = ../../VULSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D6BF7A2541809F00834310 /* VULSDK-iOS.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "VULSDK-iOS.podspec"; path = "../../VULSDK-iOS.podspec"; sourceTree = "<group>"; };
+		A2D6BF7D2541857E00834310 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		FA43F283E47AA6BA18DB42A4 /* Pods-VULSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VULSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +78,8 @@
 		A299D64525399C4400B979AC /* VULSDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A2EB4B24253D7A7500464E26 /* VULSDK.podspec */,
+				A2D6BF7A2541809F00834310 /* VULSDK-iOS.podspec */,
+				A2D6BF7D2541857E00834310 /* README.md */,
 				A2004DF5253AC417000EFD92 /* AppDelegate.h */,
 				A2004DF4253AC417000EFD92 /* AppDelegate.m */,
 				A2004DF1253AC417000EFD92 /* LoginRequest.h */,
@@ -111,8 +114,8 @@
 				A299D63F25399C4400B979AC /* Sources */,
 				A299D64025399C4400B979AC /* Frameworks */,
 				A299D64125399C4400B979AC /* Resources */,
-				32D7C42367301BC0A6BE9092 /* [CP] Embed Pods Frameworks */,
-				ABCFC94B5CF67B777FB22500 /* [CP] Copy Pods Resources */,
+				728B57BB2364C446BA6E48B8 /* [CP] Embed Pods Frameworks */,
+				3CB10F600E2A29317859C10A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,8 +162,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2EB4B25253D7A7500464E26 /* VULSDK.podspec in Resources */,
+				A2D6BF7B2541809F00834310 /* VULSDK-iOS.podspec in Resources */,
 				A299D65625399C4500B979AC /* LaunchScreen.storyboard in Resources */,
+				A2D6BF7E2541857E00834310 /* README.md in Resources */,
 				A299D65325399C4500B979AC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,24 +172,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32D7C42367301BC0A6BE9092 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ABCFC94B5CF67B777FB22500 /* [CP] Copy Pods Resources */ = {
+		3CB10F600E2A29317859C10A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,6 +187,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		728B57BB2364C446BA6E48B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VULSDKDemo/Pods-VULSDKDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FBAE1444B7B32553D2A6BEF1 /* [CP] Check Pods Manifest.lock */ = {

@@ -5,7 +5,7 @@ inhibit_all_warnings!
 target 'VULSDKDemo' do
   use_frameworks!
   
-  pod 'VULSDK', :path => '../'
+  pod 'VULSDK-iOS', :path => '../'
   
   pod 'AFNetworking', '~> 4.0.1'
   pod 'YTKNetwork', '~> 3.0.2'

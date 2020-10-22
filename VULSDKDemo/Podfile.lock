@@ -68,7 +68,7 @@ PODS:
     - CocoaLumberjack (~> 3.0)
   - TYPagerController (2.1.2)
   - TZImagePickerController (3.1.9)
-  - VULSDK (1.0.0):
+  - VULSDK-iOS (1.0.0):
     - AAChartKit (~> 5.0.3)
     - AFNetworking (~> 4.0.1)
     - AgoraRtcEngine_iOS (~> 3.1.0)
@@ -142,7 +142,7 @@ DEPENDENCIES:
   - SVGKit (~> 2.1.1)
   - TYPagerController (~> 2.1.2)
   - TZImagePickerController (~> 3.1.0)
-  - VULSDK (from `../`)
+  - VULSDK-iOS (from `../`)
   - WZLBadge (~> 1.2.6)
   - "XLPhotoBrowser+CoderXL (~> 1.2.0)"
   - YTKNetwork (~> 3.0.2)
@@ -189,7 +189,7 @@ SPEC REPOS:
     - zhPopupController
 
 EXTERNAL SOURCES:
-  VULSDK:
+  VULSDK-iOS:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -219,7 +219,7 @@ SPEC CHECKSUMS:
   SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
   TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
   TZImagePickerController: c3f7c505d23281e21e98df6dbeae372946caa28f
-  VULSDK: 80dc1d2dad80b575799bebbf272fcd5e3eb93760
+  VULSDK-iOS: 83f916a7d0e38c8c00cebb4ce3a91db2089c2359
   WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
   "XLPhotoBrowser+CoderXL": 2bf4036e2af4611b24bde1681e24c64ed01fbe98
   YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
@@ -227,6 +227,6 @@ SPEC CHECKSUMS:
   ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
   zhPopupController: 600aee950c86442c5cca0b078d94c71fe0e1c51e
 
-PODFILE CHECKSUM: 66a9b7d8de66864c175da8e3b2f225e2e55ce844
+PODFILE CHECKSUM: 2c3df749f404b3d569d7e5147db86d351af72182
 
 COCOAPODS: 1.10.0
