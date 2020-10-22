@@ -1,0 +1,6 @@
+framework module VULSDK {
+  umbrella header "VULSDK.h"
+
+  export *
+  module * { export * }
+}

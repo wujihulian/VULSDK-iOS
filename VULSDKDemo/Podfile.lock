@@ -1,0 +1,232 @@
+PODS:
+  - AAChartKit (5.0.4)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AgoraRtcEngine_iOS (3.1.2.65)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - CocoaAsyncSocket (7.6.4)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - CYLTabBarController (1.28.5):
+    - CYLTabBarController/Core (= 1.28.5)
+  - CYLTabBarController/Core (1.28.5)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - IJKMediaFramework (0.1.5)
+  - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.5.7)
+  - JXPagingView/Pager (2.0.13)
+  - Mantle (2.1.6):
+    - Mantle/extobjc (= 2.1.6)
+  - Mantle/extobjc (2.1.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.3)
+  - MJRefresh (3.5.0)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Sentry (4.5.0):
+    - Sentry/Core (= 4.5.0)
+  - Sentry/Core (4.5.0)
+  - SocketRocket (0.5.1)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - TYPagerController (2.1.2)
+  - TZImagePickerController (3.1.9)
+  - VULSDK (1.0.0):
+    - AAChartKit (~> 5.0.3)
+    - AFNetworking (~> 4.0.1)
+    - AgoraRtcEngine_iOS (~> 3.1.0)
+    - CYLTabBarController (~> 1.28.5)
+    - GCDWebServer (~> 3.5.4)
+    - IQKeyboardManager (~> 6.5.6)
+    - JXCategoryView (~> 1.5.6)
+    - JXPagingView/Pager (~> 2.0.12)
+    - Mantle (~> 2.1.1)
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD (~> 1.2.0)
+    - MJExtension (~> 3.2.2)
+    - MJRefresh (~> 3.5.0)
+    - MRDLNA (~> 0.1.1)
+    - Reachability (~> 3.2)
+    - ReactiveObjC (~> 3.1.1)
+    - SDWebImage (~> 4.0.0)
+    - Sentry (~> 4.5.0)
+    - SocketRocket (~> 0.5.1)
+    - SVGKit (~> 2.1.1)
+    - TYPagerController (~> 2.1.2)
+    - TZImagePickerController (~> 3.1.0)
+    - WZLBadge (~> 1.2.6)
+    - "XLPhotoBrowser+CoderXL (~> 1.2.0)"
+    - YTKNetwork (~> 3.0.2)
+    - ZFDownload (~> 1.0.2)
+    - ZFPlayer (~> 4.0.1)
+    - ZFPlayer/AVPlayer (~> 4.0.1)
+    - ZFPlayer/ControlView (~> 4.0.1)
+    - ZFPlayer/ijkplayer (~> 4.0.1)
+    - zhPopupController (~> 2.0.0)
+  - WZLBadge (1.2.6)
+  - "XLPhotoBrowser+CoderXL (1.2.0)":
+    - SDWebImage (~> 4.0.0)
+  - YTKNetwork (3.0.4):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - ZFDownload (1.0.2):
+    - ASIHTTPRequest
+  - ZFPlayer (4.0.1):
+    - ZFPlayer/Core (= 4.0.1)
+  - ZFPlayer/AVPlayer (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.1)
+  - ZFPlayer/ijkplayer (4.0.1):
+    - IJKMediaFramework
+    - ZFPlayer/Core
+  - zhPopupController (2.0.0)
+
+DEPENDENCIES:
+  - AAChartKit (~> 5.0.3)
+  - AFNetworking (~> 4.0.1)
+  - AgoraRtcEngine_iOS (~> 3.1.0)
+  - CYLTabBarController (~> 1.28.5)
+  - GCDWebServer (~> 3.5.4)
+  - IQKeyboardManager (~> 6.5.6)
+  - JXCategoryView (~> 1.5.6)
+  - JXPagingView/Pager (~> 2.0.12)
+  - Mantle (~> 2.1.1)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 1.2.0)
+  - MJExtension (~> 3.2.2)
+  - MJRefresh (~> 3.5.0)
+  - MRDLNA (~> 0.1.1)
+  - Reachability (~> 3.2)
+  - ReactiveObjC (~> 3.1.1)
+  - SDWebImage (~> 4.0.0)
+  - Sentry (~> 4.5.0)
+  - SocketRocket (~> 0.5.1)
+  - SVGKit (~> 2.1.1)
+  - TYPagerController (~> 2.1.2)
+  - TZImagePickerController (~> 3.1.0)
+  - VULSDK (from `../`)
+  - WZLBadge (~> 1.2.6)
+  - "XLPhotoBrowser+CoderXL (~> 1.2.0)"
+  - YTKNetwork (~> 3.0.2)
+  - ZFDownload (~> 1.0.2)
+  - ZFPlayer (~> 4.0.1)
+  - ZFPlayer/AVPlayer (~> 4.0.1)
+  - ZFPlayer/ControlView (~> 4.0.1)
+  - ZFPlayer/ijkplayer (~> 4.0.1)
+  - zhPopupController (~> 2.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AAChartKit
+    - AFNetworking
+    - AgoraRtcEngine_iOS
+    - ASIHTTPRequest
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CYLTabBarController
+    - GCDWebServer
+    - IJKMediaFramework
+    - IQKeyboardManager
+    - JXCategoryView
+    - JXPagingView
+    - Mantle
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MRDLNA
+    - Reachability
+    - ReactiveObjC
+    - SDWebImage
+    - Sentry
+    - SocketRocket
+    - SVGKit
+    - TYPagerController
+    - TZImagePickerController
+    - WZLBadge
+    - "XLPhotoBrowser+CoderXL"
+    - YTKNetwork
+    - ZFDownload
+    - ZFPlayer
+    - zhPopupController
+
+EXTERNAL SOURCES:
+  VULSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AAChartKit: 0f69007e943e3d751b02e36df8ef5ea4fea668d9
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AgoraRtcEngine_iOS: 402213cd46031bae074c9016c41a41c07184cd1a
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: fca2146e87eeaf014c71041337cb07bd4de5830b
+  JXPagingView: 821ed274f09eaf2843a96c3a74e9d138e27d9730
+  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: a6fd35a527dafd7f3f1259017ee57551d58b3bb8
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Sentry: ab6c209f23700d1460691dbc90e19ed0a05d496b
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  TYPagerController: 262556ecef99986d26ed77fb1288a198ed42f4af
+  TZImagePickerController: c3f7c505d23281e21e98df6dbeae372946caa28f
+  VULSDK: 80dc1d2dad80b575799bebbf272fcd5e3eb93760
+  WZLBadge: 9ec779dcfd94c825518b395e8315fccaabff1bfa
+  "XLPhotoBrowser+CoderXL": 2bf4036e2af4611b24bde1681e24c64ed01fbe98
+  YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
+  ZFDownload: a52f94ebb080833b8a8ceb19a409f2941343fe7f
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+  zhPopupController: 600aee950c86442c5cca0b078d94c71fe0e1c51e
+
+PODFILE CHECKSUM: 66a9b7d8de66864c175da8e3b2f225e2e55ce844
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,42 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'VULSDKDemo' do
+  use_frameworks!
+  
+  pod 'VULSDK', :path => '../'
+  
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'YTKNetwork', '~> 3.0.2'
+  pod 'MJRefresh', '~> 3.5.0'
+  pod 'MJExtension', '~> 3.2.2'
+  pod 'SDWebImage', '~> 4.0.0'
+  pod 'Masonry', '~> 1.1.0'
+  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'ReactiveObjC', '~> 3.1.1'
+  pod 'IQKeyboardManager', '~> 6.5.6'
+  pod 'Reachability', '~> 3.2'
+  pod 'GCDWebServer', '~> 3.5.4'
+  pod 'Mantle', '~> 2.1.1'
+  pod 'TYPagerController', '~> 2.1.2'
+  pod 'SocketRocket', '~> 0.5.1'
+  pod 'ZFDownload', '~> 1.0.2'
+  pod 'CYLTabBarController', '~> 1.28.5'
+  pod 'TZImagePickerController', '~> 3.1.0'
+  pod 'AAChartKit', '~> 5.0.3'
+  pod 'XLPhotoBrowser+CoderXL', '~> 1.2.0'
+  pod 'MRDLNA', '~> 0.1.1'
+  pod 'AgoraRtcEngine_iOS', '~> 3.1.0'
+  pod 'Sentry', '~> 4.5.0'
+  pod 'WZLBadge', '~> 1.2.6'
+  pod 'zhPopupController', '~> 2.0.0'
+  pod 'JXCategoryView', '~> 1.5.6'
+  pod 'JXPagingView/Pager', '~> 2.0.12'
+  pod 'SVGKit', '~> 2.1.1'  
+  pod 'ZFPlayer', '~> 4.0.1'
+  pod 'ZFPlayer/ControlView', '~> 4.0.1'
+  pod 'ZFPlayer/AVPlayer', '~> 4.0.1'
+  pod 'ZFPlayer/ijkplayer', '~> 4.0.1'
+  
+end
